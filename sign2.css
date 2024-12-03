@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+section {
+  display: flex;
+  background-color: #3b6afc;
+}
+
+section>div:first-child {
+  width: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 120px;
+  padding: 10px 10px 10px 0px;
+  gap: 10px;
+  background-color: white;
+  border-radius: 0px 40px 40px 0px;
+}
+
+section>div:first-child>div:first-child {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+section>div:first-child>div:first-child>div:nth-child(2) {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.57px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+section>div:first-child>div:first-child>div:nth-child(3) {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.62px;
+  text-align: left;
+  color: #4F5665;
+}
+
+section>div:first-child>div:first-child>div:nth-child(4) {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+section>div:first-child>div:first-child>div:nth-child(4)>button {
+  height: 51px;
+  border: 1px solid #E8E8E8;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+section>div:first-child>div:first-child>div:nth-child(4)>button>img {
+  width: 15px;
+}
+
+section>div:first-child>div:first-child>div:nth-child(5) {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+form>div:first-child,
+form>div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form>div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  width: 562px;
+  height: 44px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background: #2948FF;
+}
+
+input {
+  height: 44px;
+  padding-left: 10px;
+  border-radius: 8px;
+  background: #FCFDFE;
+  border: 1px solid #DEDEDE
+}
+
+section>div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
