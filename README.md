@@ -1,9 +1,7 @@
 # E-Wallet App
 
 ## Technologies Used
-
-![HTML5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg) 
-![CSS3](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg)
+[![HTML5](https://img.shields.io/badge/--E34F26?logo=html5&logoColor=fff)](https://www.w3.org/html/) [![CSS3](https://img.shields.io/badge/--1572B6?logo=css3&logoColor=fff)](https://www.w3.org/Style/CSS/)
 
 ## Overview
 E-Wallet adalah solusi pembayaran digital yang dirancang untuk mempermudah transaksi keuangan Anda.
