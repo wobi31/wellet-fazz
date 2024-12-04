@@ -1,5 +1,4 @@
 # E-Wallet App
-## Overview
 E-Wallet adalah solusi pembayaran digital yang dirancang untuk mempermudah transaksi keuangan Anda.
 Anda dapat mengelola uang, melakukan pembayaran, dan melacak pengeluaran dengan aman dan nyaman di manapun kapan pun.Di buta menggunakan HTML + CSS Vanila
 ## Technologies Used
