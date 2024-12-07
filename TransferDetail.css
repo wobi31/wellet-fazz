@@ -220,7 +220,7 @@ main>section:nth-child(2)>div:nth-child(2) {
   width: 1061px;
   height: 720px;
   display: flex;
-  background-color: skyblue;
+  background-color: lime;
   justify-content: center;
   align-items: center;
   border: 1px solid #E8E8E8
