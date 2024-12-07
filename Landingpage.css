@@ -384,6 +384,7 @@ footer {
 
 footer>div:first-child {
   display: flex;
+  gap: 30px;
   justify-content: space-around;
 }
 
@@ -467,19 +468,27 @@ footer>div:first-child>div:nth-child(3)>div:nth-child(2) {
 
 footer>div:first-child>div:nth-child(4)>form {
   display: flex;
-  gap: 10px;
   justify-content: space-around;
   flex-direction: column;
 }
 
+footer>div:first-child>div:nth-child(4)>form>img {
+  width: 16px;
+  left: 15px;
+  bottom: 26px;
+  position: relative;
+}
+
 input {
-  height: 10px;
-  padding: 14px 13px 14px 13px;
+  width: 185px;
+  height: 40px;
+  padding-left: 40px;
   border-radius: 8px;
   border: 1px;
 }
 
 button {
+  width: 225px;
   height: 38px;
   border-radius: 8px;
   border: 1px;
@@ -501,8 +510,9 @@ footer>div:last-child {
   flex-direction: column;
   gap: 45px;
 }
+
 footer>div:last-child>div:last-child {
-color: white;
+  color: white;
 }
 
 @media only screen and (max-width: 1000px) {
