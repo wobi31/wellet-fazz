@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  overflow-x: hidden;
+}
+
+section {
+  /* height: 100vh; */
+  display: flex;
+  background-color: #3b6afc;
+}
+
+section>div:first-child {
+  width: 710px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-right: 120px;
+  gap: 10px;
+  background-color: white;
+  border-radius: 0px 40px 40px 0px;
+}
+
+section>div:first-child>div:first-child {
+  flex-direction: column;
+  display: flex;
+  width: 562px;
+  height: 422px;
+  text-align: left;
+  /* background-color: #3b6afc; */
+  align-items: left;
+  justify-content: space-around;
+}
+
+section>div:first-child>div:first-child>div:nth-child(2) {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.57px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+section>div:first-child>div:first-child>div:nth-child(3) {
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.62px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4F5665;
+}
+
+section>div:first-child>div:first-child>div:nth-child(4) {
+  width: 562px;
+  height: 191px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section>div:first-child>div:first-child>div:nth-child(4)>div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section>div:first-child>div:first-child>div:nth-child(4)>div:first-child {
+  padding-bottom: 27px;
+}
+
+section>div:first-child>div:first-child>div:nth-child(4)>div:first-child>div:last-child {
+  color: #3b6afc;
+}
+
+section>div:first-child>div:first-child>div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+button {
+  width: 562px;
+  height: 50px;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+section>div:last-child {
+  display: flex;
+  width: 785px;
+  height: 1024px;
+  text-align: end;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+}
+
+section>div:last-child>img {
+  width: 627px;
+  height: 859px;
+  /*  */
+}
