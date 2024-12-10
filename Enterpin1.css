@@ -109,3 +109,36 @@ section>div:last-child>img {
   height: 859px;
   /*  */
 }
+
+@media (max-width: 1200px) {
+
+
+  section {
+    height: 822px;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  section>div:nth-child(1) {
+    align-items: center;
+    max-width: 610px;
+    display: flex;
+    /* padding-left: 20px; */
+    justify-content: center;
+    height: 722px;
+    /* background-color: orange; */
+  }
+
+  section>div:nth-child(1)>div:nth-child(1) {
+    align-items: center;
+    display: flex;
+    /* background-color: skyblue; */
+    justify-content: center;
+  }
+
+  section>div:nth-child(2) {
+    display: none;
+    /* Sembunyikan elemen */
+  }
+}

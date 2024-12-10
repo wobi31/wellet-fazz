@@ -66,7 +66,8 @@ main>section:first-child>div:first-child>div:nth-child(2),
 main>section:first-child>div:first-child>div:nth-child(3),
 main>section:first-child>div:first-child>div:nth-child(4),
 main>section:first-child>div:first-child>div:nth-child(5),
-main>section:first-child>div:first-child>div:nth-child(6) {
+main>section:first-child>div:first-child>div:nth-child(6),
+main>section:first-child>div:first-child>div:nth-child(7) {
   width: 214px;
   height: 45px;
   gap: 15px;
@@ -75,6 +76,10 @@ main>section:first-child>div:first-child>div:nth-child(6) {
   display: flex;
   align-items: center;
   border-radius: 8px;
+}
+
+main>section:first-child>div:first-child>div:nth-child(7) {
+  color: red;
 }
 
 main>section:nth-child(2) {
@@ -87,7 +92,37 @@ main>section:nth-child(2) {
   text-align: center;
 }
 
-main>section:nth-child(2)>div:first-child {
+main>section:nth-child(2)>div:first-child{
+display: flex;
+padding-top: 60px;
+flex-direction: column;
+gap: 30px;
+width: 1061px;
+text-align: left;
+background-color: lightcoral;
+}
+main>section:nth-child(2)>div:first-child>div:first-child {
+  gap: 20px;
+  padding-top: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  background-color: skyblue;
+}
+
+main>section:nth-child(2)>div:first-child>div:first-child>div:nth-child(1) {
+  text-align: left;
+
+}
+
+main>section:nth-child(2)>div:first-child>div:first-child>div:nth-child(2) {
+  display: flex;
+  width: 600px;
+  background-color: orange;
+  justify-content: space-around;
+}
+
+main>section:nth-child(2)>article>div:first-child {
   width: 1061px;
   height: 130px;
   display: flex;
@@ -95,7 +130,8 @@ main>section:nth-child(2)>div:first-child {
   align-items: center;
 }
 
-main>section:nth-child(2)>div:first-child>div:first-child {
+
+main>section:nth-child(2)>article>div:first-child>div:first-child {
   display: flex;
   gap: 20px;
   height: 195px;
@@ -106,7 +142,7 @@ main>section:nth-child(2)>div:first-child>div:first-child {
   flex-direction: column;
 }
 
-main>section:nth-child(2)>div:first-child>div:first-child>div:first-child {
+main>section:nth-child(2)>article>div:first-child>div:first-child>div:first-child {
   gap: 15px;
   align-items: left;
   text-align: center;
@@ -115,7 +151,7 @@ main>section:nth-child(2)>div:first-child>div:first-child>div:first-child {
 }
 
 
-main>section:nth-child(2)>div:first-child>div:first-child>div:nth-child(2) {
+main>section:nth-child(2)>article>div:first-child>div:first-child>div:nth-child(2) {
   height: 45px;
   display: flex;
   gap: 30px;
