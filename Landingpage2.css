@@ -834,11 +834,12 @@ footer>div:last-child>div:last-child {
     align-items: center;
   }
 
-  article {
+  article>div:last-child {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    height: 500px;
   }
 
   nav {
