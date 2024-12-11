@@ -4,7 +4,11 @@
   font-family: 'Montserrat';
   overflow-x: hidden;
 }
-body{
+
+body {
+  background-color: #3b6afc;
+  display: flex;
+  align-items: center;
   height: 100vh;
 }
 
@@ -59,9 +63,10 @@ section>div:first-child>div:first-child>div:nth-child(3) {
 }
 
 section>div:first-child>div:first-child>div:nth-child(4) {
-  width: 562px;
+  width: 523px;
   height: 191px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -97,6 +102,14 @@ button {
   border-radius: 6px;
 }
 
+button:active {
+  background-color: lime;
+  transform: 10.5s;
+  color: black;
+  border: none;
+  gri
+}
+
 section>div:last-child {
   display: flex;
   width: 785px;
@@ -122,13 +135,21 @@ input {
   /* border-radius: 6px; */
   align-items: center;
   font-size: 24px;
-  border-left:none ;
+  border-left: none;
   border-top: none;
   border-right: none;
-  border-bottom:2px solid #3b6afc;
+  border-bottom: 2px solid gray;
+  outline: none;
 }
-input::after {
-border-bottom: 2px solid lime;
+
+input:hover {
+  border-bottom: 2px solid #3b6afc;
+
+}
+
+input:active {
+  background-color: lime;
+  /* border-bottom: 2px solid lime; */
 }
 
 @media (max-width: 1200px) {

@@ -78,8 +78,29 @@ main>section:first-child>div:first-child>div:nth-child(6) {
   border-radius: 8px;
 }
 
+main>section:first-child>div:first-child>div:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+main>section:first-child>div:first-child>div>img:hover {
+  color: white;
+  background-color: orange;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+
 main>section:first-child>div:first-child>div:nth-child(6) {
-color: red;
+  color: red;
 }
 
 main>section:nth-child(2) {
@@ -175,7 +196,41 @@ article>div:first-child>div:nth-child(2)>div:first-child>div:nth-child(3)>div:fi
   text-decoration-skip-ink: none;
   padding-bottom: 33px;
 }
-button{
+
+form {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+form>div:first-child {
+  display: flex;
+  gap: 10px;
+}
+
+form>div:first-child>div>input {
+  width: 66px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  display: flex;
+  text-align: center;
+  /* padding-left: 20px; */
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-bottom: 2px solid grey;
+}
+form>div:first-child>div>input:focus {
+  border-bottom: 2px solid blue;
+
+}
+
+button {
   width: 997px;
   height: 45px;
   gap: 8px;
@@ -185,6 +240,7 @@ button{
   background-color: blue;
 
 }
-button:hover{
+
+button:hover {
   cursor: pointer;
 }

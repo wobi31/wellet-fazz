@@ -146,6 +146,24 @@ article>div:first-child>div:last-child {
   align-items: center;
   border: 1px solid #E8E8E8;
 }
+main>section:first-child>div:first-child>div:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+main>section:first-child>div:first-child>div>img:hover {
+color: white;
+background-color: orange;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+color: white;
+}
+
 
 article>div:nth-child(2) {
   display: flex;

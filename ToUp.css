@@ -73,6 +73,24 @@ main>section:first-child>div:first-child>div:nth-child(6) {
   align-items: center;
   border-radius: 8px;
 }
+main>section:first-child>div:first-child>div:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+main>section:first-child>div:first-child>div>img:hover {
+color: white;
+background-color: orange;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+color: white;
+}
+
 
 main>section:first-child>div:first-child>div:nth-child(6) {
   color: red;
