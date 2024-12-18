@@ -76,6 +76,12 @@ main>section:first-child>div:first-child>div:nth-child(6) {
   align-items: center;
   border-radius: 8px;
 }
+main>section:first-child>div:first-child>div:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
 
 main>section:nth-child(2) {
   display: flex;

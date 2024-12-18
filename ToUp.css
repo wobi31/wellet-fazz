@@ -80,7 +80,11 @@ main>section:first-child>div:first-child>div:hover {
 }
 main>section:first-child>div:first-child>div>img:hover {
 color: white;
-background-color: orange;
+background-color: white;
+}
+#rd{
+  width: 12px;
+  height: 12px;
 }
 
 a{

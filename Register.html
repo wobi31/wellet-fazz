@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register</title>
   <link rel="stylesheet" href="Register.css">
+  <script src="index.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -32,26 +33,20 @@
           Or
           <img src="asset/Line 1.png" alt="">
         </div>
-        <form action="">
+        <div class="alert2">
           <div>
-            <label for="">Email</label>
-            <input type="email" name="" id="" placeholder="Enter Your Email">
-            <img src="asset/mail.png" alt="">
+            <h4>I'm sorry your registration failed. Check your password or email to see if it is correct.</h4>
           </div>
-          <div>
-            <label for="">Password</label>
-            <input type="password" name="" id="" placeholder="Enter Your Password">
-            <img src="asset/Password.png" alt="">
-          </div>
-          <div>
-            <label for="">Password</label>
-            <input type="password" name="" id="" placeholder="Enter Your Password">
-            <img src="asset/Password.png" alt="">
-          </div>
-          <div>
-            <button class="btn">Register</button>
-            <div>Not Have An Account? <a href="">Login</a></div>
-          </div>
+        </div>
+        <form id="form2" action="">
+          <label for="">Email</label>
+          <input type="email"  name="email" id="email" placeholder="Enter Your Email" required>
+          <label for="">password</label>
+          <input type="password"  name="password1" id="password1" placeholder="Enter Your Password" required>
+          <label for="">password</label>
+          <input type="password"  name="password2" id="password2" placeholder="Enter Your Password Again" required>
+          <button type="submit" class="btn">Register</button>
+          <div>Not Have An Account? <a href="">Login</a></div>
         </form>
       </div>
     </div>

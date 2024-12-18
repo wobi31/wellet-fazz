@@ -319,3 +319,6 @@ article>div:first-child>div:nth-child(2)>div:first-child>div:nth-child(3)>div:nt
   color: white;
   background-color: blue;
 }
+.btn:active {
+  background-color: #3557bc;
+}

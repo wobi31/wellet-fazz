@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="sign2.css">
+  <script src="index.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -29,21 +30,30 @@
           Or
           <img src="asset/Line 1.png" alt="">
         </div>
-        <form action="">
+        <div id="alert2">
           <div>
-            <label for="">Email</label>
-            <input type="email" name="" id="" placeholder="Enter Your Email">
+            <h4>I'm sorry your registration failed. Check your password or email to see if it is correct.</h4>
+          </div>
+        </div>
+        <form id="form" action="">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
             <img src="asset/mail.png" alt="">
           </div>
           <div>
-            <label for="">Password</label>
-            <input type="password" name="" id="" placeholder="Enter Your Password">
+            <label id="lab" for="password">Password</label>
+            <input type="password"  name="password" id="password" placeholder="Enter Your Password"
+              required>
             <img src="asset/Password.png" alt="">
-            <img id="eye" src="asset/EyeSlash.png" alt="">
+            <!-- <img id="eye" src="asset/EyeSlash.png" alt=""> -->
           </div>
           <div>
-            <button class="btn">Register</button>
-            <div>Not Have An Account? <a href="http://127.0.0.1:5501/Landingpage2.html">Register</a></div>
+            <button type="submit" class="btn">
+              <!-- <canvas id="canvas" width="300" height="300"></canvas> -->
+              <p>Register</p>
+            </button>
+            <div>Not Have An Account? <a href="">Register</a></div>
           </div>
         </form>
       </div>

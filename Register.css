@@ -27,7 +27,7 @@ section>div:first-child {
 section>div:first-child>div:first-child {
   display: flex;
   width: 562px;
-  gap: 20px;
+  /* gap: 5px; */
   /* background-color: orange; */
   /* height: 81px; */
   flex-direction: column;
@@ -79,7 +79,7 @@ section>div:first-child>div:first-child>div:nth-child(5) {
 
 form {
   display: flex;
-  /* gap: 10px; */
+  gap: 10px;
   flex-direction: column;
 }
 
@@ -90,9 +90,14 @@ form>div:nth-child(3) {
   flex-direction: column;
   gap: 10px;
 }
-form>div:first-child>img,
-form>div:nth-child(2)>img,
-form>div:nth-child(3)>img {
+
+form>div:last-child {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+form>img {
   width: 16px;
   height: 16px;
   position: relative;
@@ -117,8 +122,9 @@ form>div:nth-child(4) {
   border-radius: 8px;
   background: #2948FF;
 }
+
 .btn:active {
-background-color: #3b6afc;
+  background-color: #3557bc;
 }
 
 input {
@@ -139,6 +145,29 @@ section>div:last-child {
 
 button:hover {
   cursor: pointer;
+}
+
+.alert2 {
+  visibility: hidden;
+}
+
+
+.alert1>div,
+.alert2>div {
+  height: 80px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600px;
+}
+
+.alert2>div {
+  color: whitesmoke;
+  background-color: #ff4c54;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -192,7 +221,6 @@ button:hover {
     align-items: center;
     width: 910px;
     gap: 10px;
-    background-color: skyblue;
     height: 994px;
   }
 
@@ -207,6 +235,7 @@ button:hover {
     justify-content: center;
     align-items: center;
   }
+
   section>div:first-child {
     width: 510px;
     height: 824px;

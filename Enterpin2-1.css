@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 57px;
+  padding: 20px 79px;
+  border: 1px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+header>div:last-child {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+  align-items: center;
+  width: 423px;
+  height: 48px;
+  text-align: end;
+  gap: 40px;
+}
+
+main {
+  display: flex;
+}
+
+main>section:first-child {
+  width: 262px;
+  height: 948px;
+  gap: 15px;
+  border: 1px;
+  display: flex;
+  /* padding-left: 10px; */
+  padding-top: 15px;
+  justify-content: end;
+  /* padding-left: 20px; */
+  padding-right: 30px;
+  border-right: 1px solid #E8E8E8;
+}
+
+main>section:first-child>div:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  align-items: center;
+  height: 350px;
+  gap: 16px;
+  justify-content: space-around;
+}
+
+main>section:first-child>div:first-child>div:nth-child(2) {
+  background-color: blue;
+  color: white;
+  gap: 10px;
+}
+
+main>section:first-child>div:first-child>div:first-child,
+main>section:first-child>div:first-child>div:nth-child(2),
+main>section:first-child>div:first-child>div:nth-child(3),
+main>section:first-child>div:first-child>div:nth-child(4),
+main>section:first-child>div:first-child>div:nth-child(5),
+main>section:first-child>div:first-child>div:nth-child(6),
+main>section:first-child>div:first-child>div:nth-child(7) {
+  width: 214px;
+  height: 45px;
+  gap: 15px;
+  padding-left: 30px;
+  justify-content: start;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+main>section:nth-child(2) {
+  background: #00000099;
+  align-items: center;
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+article {
+  padding-left: 30px;
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+article>div:first-child{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
