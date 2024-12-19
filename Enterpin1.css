@@ -61,10 +61,19 @@ section>div:first-child>div:first-child>div:nth-child(3) {
   text-decoration-skip-ink: none;
   color: #4F5665;
 }
-
-section>div:first-child>div:first-child>div:nth-child(4) {
+span{
+  font-size: 17px;
+  font-weight: 500;
+  color: red;
+  visibility: hidden;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form>div:nth-child(1){
   width: 523px;
-  height: 191px;
+  height: 121px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -103,11 +112,9 @@ button {
 }
 
 button:active {
-  background-color: lime;
+  background-color: #3557bc;
   transform: 10.5s;
-  color: black;
   border: none;
-  gri
 }
 
 section>div:last-child {
@@ -148,7 +155,6 @@ input:hover {
 }
 
 input:active {
-  background-color: lime;
   /* border-bottom: 2px solid lime; */
 }
 
