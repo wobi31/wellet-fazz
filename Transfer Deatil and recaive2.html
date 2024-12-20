@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transfer Detail</title>
+  <link rel="stylesheet" href="Transfer Deatil and recaive2.css" />
+  <script src="JavaScript/index5.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="asset/Frame 12.png" alt="">
+    </div>
+    <div>
+      <p>Ghaluh Wizard</p>
+      <img src="asset/galuh.png" alt="">
+      <img src="asset/down.png" alt="">
+    </div>
+  </header>
+  <aside>
+    <div><img src="asset/dashboard-two (1).png" alt="">Dashboard</div>
+    <div><img src="asset/Send.png" alt="">Transfer</div>
+    <div><img src="asset/history (1).png" alt="">history</div>
+    <div><img src="asset/Upload whaite.png" alt="">Top Up</div>
+    <div><img src="asset/2 User.png" alt="">Profile</div>
+    <div><img src="asset/Out.png" alt="">Keluar</div>
+  </aside>
+  <main>
+    <section class="transfer-step">
+      <div>
+        <img src="asset/Send blue.png" alt="send" />
+        <p>Transfer Money</p>
+      </div>
+      <div>
+        <div class="step">
+          <div class="span">
+            <p>1</p>
+          </div>
+          <p>Find People</p>
+        </div>
+        <div class="line"></div>
+        <div class="step">
+          <div class="span2">
+            <p>2</p>
+          </div>
+          <p>Set Nominal</p>
+        </div>
+        <div class="line"></div>
+        <div class="step">
+          <div class="span">
+            <p>3</p>
+          </div>
+          <p>Finish</p>
+        </div>
+      </div>
+    </section>
+    <section class="transfer-info">
+      <form>
+        <div>
+          <p>People Information</p>
+          <div class="receiver">
+            <img src="asset/fropil 2.png" id="fropil" alt="">
+            <div>
+              <p>Ghaluh 1</p>
+              <p>(239)555-0108</p>
+              <div>
+                <img src="asset/Vector (9).png" alt="verified" />
+                <p>Verified</p>
+              </div>
+            </div>
+            <img src="asset/Star.png" alt="favorite" />
+          </div>
+        </div>
+        <div>
+          <label for="input">Amount</label>
+          <p>Type the amount you want to transfer and then press continue to the next steps.</p>
+          <span id="err-messege"></span>
+          <div>
+            <img src="asset/u_money-bill.png" alt="">
+            <input type="text" name="transfer" id="input" placeholder="Enter Nominal Transfer" />
+          </div>
+        </div>
+        <div>
+          <label for="notes">Notes</label>
+          <p>You can add some notes for this transfer such as payment coffee or something</p>
+          <textarea name="note" id="textArea" placeholder="Enter Some Notes"></textarea>
+        </div>
+        <button type="button" onclick="getInput()">Submit & Transfer</button>
+      </form>
+    </section>
+  </main>
+  <div class="pin">
+      <div>TRANSFER TO GHALUH 1</div>
+      <form action="">
+          <div><h4>Enter Your Pin 👋</h4></div>
+          <divh><h5>Enter Your Pin For Transaction</h5></divh>
+          <div id="formPin">
+            <input name="pin" type="text" maxlength="1">
+            <input name="pin" type="text" maxlength="1">
+            <input name="pin" type="text" maxlength="1">
+            <input name="pin" type="text" maxlength="1">
+            <input name="pin" type="text" maxlength="1">
+            <input name="pin" type="text" maxlength="1">
+          </div>
+          <button id="btn1">Next</button>
+          <button id="btn2">Forgot Your Pin? Reset</button>
+        </form>
+  </div>
+  <div class="succes">
+    <div>
+      <div>TRANSFER TO GHALUH 1</div>
+      <div>
+        <div><img src="asset/Contact us-pana 1.png" alt=""></div>
+        <div>Yeay Transfer <span>Success</span></div>
+        <div>Thank you for using this application for your financial</div>
+        <button class="btn1Succes">Done</button>
+        <button class="btn2Succes">Transfer Again</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="failed">
+    <div>
+      <div>TRANSFER TO GHALUH 1</div>
+      <div>
+        <div><img src="asset/Oh no-cuate 1.png" alt=""></div>
+        <div>Yeay Transfer <span>Failed</span></div>
+        <div>Thank you for using this application for your financial</div>
+        <button id="btn1">Try Again</button>
+        <button id="btn2">Back To Dashboard</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

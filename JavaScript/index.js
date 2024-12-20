@@ -23,7 +23,7 @@ form2.addEventListener("submit", function (e) {
     console.log(email);
     console.log(pass1);
     console.log(pass2);
-    if (validationPass(pass1)) {
+    if (validationPass(pass1) && validationPass(pass2)) {
       alertfailed.style.visibility = "visible";
     }
     if (pass1 !== pass2) {
@@ -38,7 +38,5 @@ form2.addEventListener("submit", function (e) {
       pass2: pass2,
     };
     localStorage.setItem("userData", JSON.stringify(userData));
-
-    alert("Data berhasil disimpan ke localStorage!");
   }, 1000);
 });
