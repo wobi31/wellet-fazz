@@ -84,18 +84,19 @@
         <div>
           <label for="input">Amount</label>
           <p>Type the amount you want to transfer and then press continue to the next steps.</p>
-          <span id="err-messege"></span>
+          <span id="err-messege">Input must be a number</span>
           <div>
             <img src="asset/u_money-bill.png" alt="">
-            <input type="text" name="transfer" id="input" placeholder="Enter Nominal Transfer" />
+            <input type="number" name="transfer" id="input" placeholder="Enter Nominal Transfer" />
           </div>
         </div>
         <div>
           <label for="notes">Notes</label>
+          <span id="err-messege2"></span>
           <p>You can add some notes for this transfer such as payment coffee or something</p>
           <textarea name="note" id="textArea" placeholder="Enter Some Notes"></textarea>
         </div>
-        <button type="button" onclick="getInput()">Submit & Transfer</button>
+        <button type="submit">Submit & Transfer</button>
       </form>
     </section>
   </main>

@@ -1,25 +1,32 @@
-const Alertspan = document.querySelector("span");
+const errMsg = document.querySelector("span");
 const form = document.querySelector("form");
+const email = document.querySelector("#email")
+const localData = JSON.parse(localStorage.getItem("dataUser"));
+
 
 document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    const formdata = new FormData(form);
-    const getEmail = formdata.get("email");
-    console.log(getEmail);
-    if (getEmail === "admin@mail") {
-      alert("masuk2");
+    if (email.value === localData.email) {
       location.href = "Dasbordv2.html";
+    }else{
+      errMsg.style.visibility = "visible";
+      errMsg.innerHTML = "Chek Your Email";
+      errMsg.style.background = "red";
+      errMsg.style.color = "white";
+      errMsg.style.fontWeight = "500";
     }
-    if (getEmail.values == "" || getEmail.values == null) {
-      Alertspan.style.visibility = "visible";
+    if (email.value == "" || email.value == null) {
+      errMsg.style.visibility = "visible";
+      errMsg.innerHTML = "Email do not empaty";
     }
   });
 });
 
-function strogeData() {
-  const data = localStorage.getItem(form).stringify();
-  document.getElementById("dataTersimpan").innerText = data
-    ? data
-    : "Tidak ada data.";
-}
+// function strogeData() {
+  // const data = localStorage.getItem(form).stringify();
+  // document.getElementById("dataTersimpan").innerText = data
+    // ? data
+    // : "Tidak ada data.";
+// }
+// 

@@ -61,22 +61,32 @@ section>div:first-child>div:first-child>div:nth-child(3) {
   text-decoration-skip-ink: none;
   color: #4F5665;
 }
-span{
+
+span {
   font-size: 17px;
   font-weight: 500;
   color: red;
   visibility: hidden;
 }
+
 form {
   display: flex;
   flex-direction: column;
 }
-form>div:nth-child(1){
+
+form>div:nth-child(1) {
   width: 523px;
   height: 121px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+form>div:last-child>div:last-child {
+  align-items: center;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
 }
 
 section>div:first-child>div:first-child>div:nth-child(4)>div {
