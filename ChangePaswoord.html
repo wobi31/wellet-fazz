@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Change Password</title>
   <link rel="stylesheet" href="ChangePaspword.css">
+  <script src="JavaScript/index6.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -44,24 +45,30 @@
               <div>
                 <div>Change Password</div>
               </div>
-              <form action="">
+              <form id="form" action="">
                 <div>
                   <label for="">Existing Password</label>
-                  <input type="text" name="" id="" placeholder="Enter Your Existing Password">
+                  <span></span>
+                  <input type="text" name="passOld" id="pass1" placeholder="Enter Your Existing Password">
                   <img src="asset/Password.png" alt="">
+                  <img class="eye" src="asset/EyeSlash.png" alt="">
                 </div>
                 <div>
                   <label for="">New Password</label>
-                  <input type="text" name="" id="" placeholder="Enter Your New Password">
+                  <span></span>
+                  <input type="text" name="passNew1" id="passNew1" placeholder="Enter Your New Password">
                   <img src="asset/Password.png" alt="">
+                  <img class="eye" src="asset/EyeSlash.png" alt="">
                 </div>
                 <div>
                   <label for="">Confirm New Password</label>
-                  <input type="text" name="" id="" placeholder="Re-Type Your New Password">
+                  <span></span>
+                  <input type="text" name="passNew2" id="passNew2" placeholder="Re-Type Your New Password">
                   <img src="asset/Password.png" alt="">
+                  <img class="eye" src="asset/EyeSlash.png" alt="">
                 </div>
+                <div><button>Submit</button></div>
               </form>
-              <div><button>Submit</button></div>
             </div>
           </div>
         </div>

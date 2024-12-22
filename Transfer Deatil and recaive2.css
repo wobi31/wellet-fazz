@@ -223,11 +223,6 @@ label+p {
   font-size: 14px;
 }
 
-form>div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 
 form>div:nth-child(2)>div {
   border: var(--border-style);
@@ -248,9 +243,12 @@ form>div:nth-child(2)>div>input:focus {
 }
 
 form textarea {
+  /* max-width:1040px ; */
+  width:1100px ;
   height: 223px;
   resize: none;
   padding: 10px;
+  /* background-color: red; */
   border: var(--border-style);
 }
 
@@ -274,15 +272,14 @@ form button:active {
 .pin {
   width: 596px;
   height: 590px;
-  bottom: 700px;
+  bottom: 400px;
   left: 600px;
   position: relative;
   border-radius: 16px;
-  align-items: center;
+  justify-content: center;
   display: flex;
   padding: 10px;
-  gap: 10px;
-  justify-content: space-around;
+  /* gap: 90px; */
   flex-direction: column;
   visibility: hidden;
   background-color: white;
@@ -300,10 +297,11 @@ form {
   justify-content: space-around;
 }
 
-#formPin {
+.formPin {
   height: 200px;
   display: flex;
   justify-content: center;
+  padding-right: 30px;
   align-items: center;
   flex-direction: row;
   gap: 10px;
@@ -316,8 +314,19 @@ form {
   display: none;
 }
 
+#err-messege2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 18px;
+  background-color: ;
+  font-weight: 500;
+  color: red;
+  align-items: center;
+}
 
-form>div:nth-child(3)>input {
+.formPin>input {
   width: 66px;
   border-left: none;
   border-top: none;
@@ -330,6 +339,17 @@ form>div:nth-child(3)>input {
   justify-content: center;
   align-items: center;
   outline: none;
+}
+/*  */
+#form2 {
+  /* background-color: red; */
+  height: 450px;
+  justify-content: center;
+}
+
+#form2>div:nth-child(3) {
+  display: flex;
+
 }
 
 .succes {
@@ -391,8 +411,8 @@ form>div:nth-child(3)>input {
 .failed {
   width: 596px;
   height: 590px;
-  bottom: 850px;
-  left: 300px;
+  bottom: 1100px;
+  left: 590px;
   /* padding: 20px; */
   position: relative;
   border-radius: 16px;

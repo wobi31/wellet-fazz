@@ -74,27 +74,38 @@ main>section:first-child>div:first-child>div:nth-child(7) {
   align-items: center;
   border-radius: 8px;
 }
+
 main>section:first-child>div:first-child>div:hover {
   background-color: blue;
   color: white;
   cursor: pointer;
 }
+
 main>section:first-child>div:first-child>div>img:hover {
-color: white;
-background-color: orange;
+  color: white;
+  background-color: orange;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
-a:hover{
-color: white;
+
+a:hover {
+  color: white;
 }
 
+.a {
+  font-weight: 400;
+  color: blue;
+}
+
+.a:hover {
+  color: blue;
+}
 
 main>section:first-child>div:first-child>div:nth-child(7) {
-color: red;
+  color: red;
 }
 
 main>section:nth-child(2) {
@@ -319,6 +330,7 @@ article>div:first-child>div:nth-child(2)>div:first-child>div:nth-child(3)>div:nt
   color: white;
   background-color: blue;
 }
+
 .btn:active {
   background-color: #3557bc;
 }

@@ -104,7 +104,7 @@ article>div:first-child>div:first-child>div:first-child {
 
 article>div:first-child>div:nth-child(2) {
   width: 1056px;
-  height: 404px;
+  height: 520px;
   border: 1px solid #E8E8E8;
   padding-left: 30px;
   padding-top: 45px;
@@ -157,8 +157,8 @@ article>div:first-child>div:nth-child(2)>div:first-child>div:nth-child(3) {
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  justify-content: space-around;
+  /* gap: 10px; */
+  /* justify-content: space-around; */
 }
 
 form>div {
@@ -194,6 +194,9 @@ button {
   color: white;
   background-color: blue;
 }
+button:active {
+background-color: rgb(85, 85, 219);
+}
 
 form>div>img {
   width: 16px;
@@ -202,4 +205,9 @@ form>div>img {
   /* right: 10px; */
   left: 8px;
   bottom: 40px;
+}
+.eye{
+  position: relative;
+  left: 975px;
+  bottom: 67px;
 }

@@ -65,7 +65,7 @@
       </div>
     </section>
     <section class="transfer-info">
-      <form>
+      <form id="form'">
         <div>
           <p>People Information</p>
           <div class="receiver">
@@ -92,7 +92,6 @@
         </div>
         <div>
           <label for="notes">Notes</label>
-          <span id="err-messege2"></span>
           <p>You can add some notes for this transfer such as payment coffee or something</p>
           <textarea name="note" id="textArea" placeholder="Enter Some Notes"></textarea>
         </div>
@@ -101,21 +100,26 @@
     </section>
   </main>
   <div class="pin">
-      <div>TRANSFER TO GHALUH 1</div>
-      <form action="">
-          <div><h4>Enter Your Pin 👋</h4></div>
-          <divh><h5>Enter Your Pin For Transaction</h5></divh>
-          <div id="formPin">
-            <input name="pin" type="text" maxlength="1">
-            <input name="pin" type="text" maxlength="1">
-            <input name="pin" type="text" maxlength="1">
-            <input name="pin" type="text" maxlength="1">
-            <input name="pin" type="text" maxlength="1">
-            <input name="pin" type="text" maxlength="1">
-          </div>
-          <button id="btn1">Next</button>
-          <button id="btn2">Forgot Your Pin? Reset</button>
-        </form>
+    <div>TRANSFER TO GHALUH 1</div>
+    <form id="form2" action="">
+      <div>
+        <h4>Enter Your Pin 👋</h4>
+      </div>
+      <divh>
+        <h5>Enter Your Pin For Transaction</h5>
+        <span id="err-messege2"></span>
+      </divh>
+      <div class="formPin">
+        <input name="pin1" type="text" maxlength="1">
+        <input name="pin2" type="text" maxlength="1">
+        <input name="pin3" type="text" maxlength="1">
+        <input name="pin4" type="text" maxlength="1">
+        <input name="pin5" type="text" maxlength="1">
+        <input name="pin6" type="text" maxlength="1">
+      </div>
+      <button id="btn1">Next</button>
+      <button onclick="risetPin()" id="btn2">Forgot Your Pin? Reset</button>
+    </form>
   </div>
   <div class="succes">
     <div>
@@ -124,7 +128,7 @@
         <div><img src="asset/Contact us-pana 1.png" alt=""></div>
         <div>Yeay Transfer <span>Success</span></div>
         <div>Thank you for using this application for your financial</div>
-        <button class="btn1Succes">Done</button>
+        <button onclick="btnDone()" class="btn1Succes">Done</button>
         <button class="btn2Succes">Transfer Again</button>
       </div>
     </div>
