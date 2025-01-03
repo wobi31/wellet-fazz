@@ -66,7 +66,6 @@ form2.addEventListener("submit", function (e) {
     popUpPin.style.visibility = "hidden";
   } else {
     popUpfailed.style.visibility = "visible";
-
     errMsg2.style.visibility = "visible";
     errMsg2.innerHTML = "Pin Coreet?";
   }
@@ -77,6 +76,7 @@ function btnDone() {
   bgBlack.style.background = "none";
   getInput.style.background = "none";
   textArea.style.background = "none";
+  errMsg2.style.visibility = "visible";
 }
 function risetPin(){
   location.href = "enterpin1.html";

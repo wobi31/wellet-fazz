@@ -23,7 +23,7 @@
       <div><img src="asset/down.png" alt=""></div>
     </div>
   </header>
-  <main>
+  <main>  
     <section>
       <div>
         <div><img src="asset/dashboard-two (1).png" alt="">Dashboard</div>
@@ -48,24 +48,24 @@
               <form id="form" action="">
                 <div>
                   <label for="">Existing Password</label>
-                  <span></span>
-                  <input type="text" name="passOld" id="pass1" placeholder="Enter Your Existing Password">
+                  <span id="err1"></span>
+                  <input type="password" name="passOld" id="pass1" placeholder="Enter Your Existing Password">
                   <img src="asset/Password.png" alt="">
-                  <img class="eye" src="asset/EyeSlash.png" alt="">
+                  <img class="eye" onclick="changeI()" src="asset/EyeSlash.png" alt="">
                 </div>
                 <div>
                   <label for="">New Password</label>
-                  <span></span>
-                  <input type="text" name="passNew1" id="passNew1" placeholder="Enter Your New Password">
+                  <span id="err2"></span>
+                  <input type="password" name="passNew1" id="passNew1" placeholder="Enter Your New Password">
                   <img src="asset/Password.png" alt="">
-                  <img class="eye" src="asset/EyeSlash.png" alt="">
+                  <img class="eye" onclick="changeII()" src="asset/EyeSlash.png" alt="">
                 </div>
                 <div>
                   <label for="">Confirm New Password</label>
-                  <span></span>
-                  <input type="text" name="passNew2" id="passNew2" placeholder="Re-Type Your New Password">
+                  <span id="err3" ></span>
+                  <input type="password" name="passNew2" id="passNew2" placeholder="Re-Type Your New Password">
                   <img src="asset/Password.png" alt="">
-                  <img class="eye" src="asset/EyeSlash.png" alt="">
+                  <img  class="eye" onclick="changeIII()" src="asset/EyeSlash.png" alt="">
                 </div>
                 <div><button>Submit</button></div>
               </form>

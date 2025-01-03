@@ -75,7 +75,7 @@ form {
 }
 
 form>div:nth-child(1) {
-  width: 523px;
+  /* width: 523px; */
   height: 121px;
   display: flex;
   align-items: center;
@@ -168,8 +168,11 @@ input:active {
   /* border-bottom: 2px solid lime; */
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 900px) {
+  body {
+    justify-content: center;
+    align-items: center;
+  }
 
   section {
     height: 822px;
@@ -182,21 +185,27 @@ input:active {
     align-items: center;
     max-width: 610px;
     display: flex;
-    /* padding-left: 20px; */
     justify-content: center;
-    height: 722px;
-    /* background-color: orange; */
+    width: 335px;
+    border-radius: 20px;
+    height: 480px;
+    padding: 10px;
   }
 
+  button {
+    border-radius: 6px;
+  }
+
+  form>div:nth-child(1){
+    gap:7px;
+    justify-content: center;
+  }
   section>div:nth-child(1)>div:nth-child(1) {
-    /* align-items: center; */
     display: flex;
-    /* background-color: skyblue; */
     justify-content: center;
   }
 
   section>div:nth-child(2) {
     display: none;
-    /* Sembunyikan elemen */
   }
 }

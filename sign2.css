@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   font-family: 'Montserrat';
-
 }
 
 section {
@@ -136,6 +135,7 @@ form>div:nth-child(3) {
   border-radius: 8px;
   background: #2948FF;
 }
+
 .btn:active {
   background-color: #3557bc;
 }
@@ -156,4 +156,31 @@ section>div:last-child {
 
 button:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 0;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+
+    justify-content: center;
+  }
+
+  section {
+    width: 0;
+    height: 30%;
+    background-color: white;
+    align-items: center;
+  }
+
+  section>div:first-child {
+    padding: 100px;
+    font-size: 1vw;
+  }
+
+  section>div:last-child {
+    display: none;
+  }
 }

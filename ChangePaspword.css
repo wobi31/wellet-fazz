@@ -57,8 +57,9 @@ main>section:first-child>div:first-child>div:nth-child(2) {
   color: white;
   gap: 10px;
 }
+
 main>section:first-child>div:first-child>div:last-child {
-color: red;
+  color: red;
 }
 
 main>section:first-child>div:first-child>div:first-child,
@@ -78,16 +79,16 @@ main>section:first-child>div:first-child>div:nth-child(6) {
 }
 
 main>section:nth-child(2) {
-  /* align-items: center; */
-  padding-left: 40px;
+  padding: 50px;
   display: flex;
-  padding-top: 40px;
   justify-content: center;
 }
 
 article {
   display: flex;
   gap: 20px;
+  /* background-color: aqua; */
+  justify-content: space-around;
 }
 
 article>div:first-child {
@@ -103,19 +104,15 @@ article>div:first-child>div:first-child>div:first-child {
 }
 
 article>div:first-child>div:nth-child(2) {
-  width: 1056px;
-  height: 520px;
+  justify-content: center;
+  padding: 20px;
   border: 1px solid #E8E8E8;
-  padding-left: 30px;
-  padding-top: 45px;
   text-align: left;
   display: flex;
   align-items: center;
 }
 
 article>div:first-child>div:nth-child(2)>div:first-child {
-  width: 983px;
-  height: 318px;
   gap: 5px;
   padding-bottom: 40px;
   display: flex;
@@ -171,7 +168,6 @@ form>div {
 }
 
 input {
-  width: 983px;
   height: 44px;
   gap: 10px;
   padding-left: 30px;
@@ -194,8 +190,9 @@ button {
   color: white;
   background-color: blue;
 }
+
 button:active {
-background-color: rgb(85, 85, 219);
+  background-color: rgb(85, 85, 219);
 }
 
 form>div>img {
@@ -206,8 +203,14 @@ form>div>img {
   left: 8px;
   bottom: 40px;
 }
-.eye{
+
+.eye {
   position: relative;
   left: 975px;
   bottom: 67px;
+}
+@media (max-width: 900px) {
+  header{
+    justify-content: space-around;
+  }
 }

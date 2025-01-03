@@ -44,7 +44,7 @@ form.addEventListener("submit", function (e) {
 function change() {
   if (pass.type === "password") {
     pass.type = "text";
-    return;
+     return;
   }
   pass.type = "password";
 }
