@@ -147,7 +147,6 @@ button:nth-child(2) {
   border: 1px solid white;
 }
 
-
 button>img {
   width: 15px;
   height: 17px;
@@ -271,7 +270,6 @@ main>section:first-child>div:nth-child(2)>div:first-child>div:nth-child(2) {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
 }
 
 main>section:first-child>div:nth-child(2)>div:first-child>div:nth-child(3) {
@@ -356,13 +354,11 @@ main>section:nth-child(2)>div:nth-child(1)>div:first-child {
 
 
 main>section:nth-child(2)>div:nth-child(1)>div:first-child>div:first-child {
-  font-family: Montserrat;
   font-size: 36px;
   font-weight: 500;
   line-height: 43.88px;
   text-align: left;
   padding-right: 23px;
-  text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
 }
